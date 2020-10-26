@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(BG.jpg);
+    background-size: cover;
+}
+@font-face {
+font-family: dash ;
+src: url('Dash-Horizon-Demo.otf');
+}
+body{
+  font-family: dash;
+  font-size: 14pt;
+}
+
+
+fieldset{
+    display: block;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding-top: 0.50em;
+    padding-bottom: 0.80em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border-radius: 15px;
+    background-color: Putih;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}

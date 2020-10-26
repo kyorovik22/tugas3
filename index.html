@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungsi Aritmatika</title>
+    <link rel="stylesheet" href="tugas.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+    function kurang(){
+        A = document.register.A.value;
+        B = document.register.B.value;
+         
+         kurang = Number(A) - Number(B);
+
+        swal("Hasil :"+kurang)
+
+    }
+    function tambah(){
+        A = document.register.A.value;
+        B = document.register.B.value;
+         
+         tambah = Number(A) + Number(B);
+
+        swal("Hasil :"+tambah)
+
+    }
+    function kali(){
+        A = document.register.A.value;
+        B = document.register.B.value;
+         
+         kali = Number(A) * Number(B);
+
+        swal("Hasil :"+kali)
+
+    } 
+    function bagi(){
+        A = document.register.A.value;
+        B = document.register.B.value;
+         
+         bagi = Number(A) / Number(B);
+
+        swal("Hasil :"+bagi)
+
+    }
+</script>
+</head>
+<body>
+    <img src="A2.png" >
+    <fieldset>
+        <legend> Fungsi Aritmatika </legend>
+        <form name="register">
+        <table>
+            <tr>
+                <td>Masukan Bilangan 1</td>
+                <td><input type="text" name="A" ></td>
+            </tr>
+            <tr>
+                <td>Masukan Bilangan 2</td>
+                <td><input type="text" name="B" ></td>
+            </tr>
+            <tr>
+                <td>
+                <input type="button" onclick="kurang()" value="-">
+                <input type="button" onclick="tambah()" value="+">
+                <input type="button" onclick="kali()" value="*" >
+                <input type="button" onclick="bagi()" value="/" >
+                </td>
+            </tr>
+        </table>
+    </form>
+    </fieldset>
+    
+</body>
+</html>
